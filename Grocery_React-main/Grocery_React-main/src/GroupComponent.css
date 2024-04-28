@@ -1,0 +1,458 @@
+/* GroupComponent.css */
+
+
+
+
+  
+
+/* GroupComponent.css */
+
+.group-container {
+    border: 1px solid #25d366;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    height: 70vh; /* Adjust the height to fill the screen vertically */
+    margin: auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative; /* Set position to relative for absolute positioning */
+  }
+  .add-member-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  
+  
+  .add-task-button:hover {
+    background-color: #788c12;
+  }
+  .group-title {
+    background-color: #25d366;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    width: 100%;
+    position: relative;
+    justify-content: space-between; /* Align items to the right */
+    align-items: center; /* Center items vertically */
+  }
+  
+  .add-task-button {
+    background-color: #f9f900;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 50%;
+    padding: 15px; /* Increased padding for larger size */
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .add-task-button:hover {
+    background-color: #128c7e;
+  }
+  
+  .add-member-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .group-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .list-item-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .group-list-item {
+    border: 1px solid #020400;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    height: 20px; /* Set a fixed height for each item */
+    display: flex;
+    align-items: center;
+    width: 200px /* Center content vertically */
+  }
+  
+  
+  .button-container {
+    margin-top: 30px; /* Place at the bottom */
+  }
+  
+  .select-items-button {
+    padding: 10px;
+    background-color: #25d366;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .my-task-button {
+    padding: 10px;
+    background-color: #007bff; /* Set your desired blue color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .my-task-button:hover {
+    background-color: #0056b3; /* Set a different shade for the hover effect */
+  }
+  
+
+  .select-items-button:hover {
+    background-color: #128c7e;
+  }
+  
+  .modal-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  
+  .close-modal-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 10px;
+    background-color: #25d366;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .close-modal-button:hover {
+    background-color: #ff0000;
+  }
+  .group-list {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0;
+  }
+  
+  .list-item-container {
+    margin-bottom: 10px; /* Adjust the margin between list items */
+  }
+  
+  .group-list-item {
+    display: block;
+    /* Add any additional styles you need for each list item */
+  }
+  .list-item-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+  }
+  
+  .group-list-item {
+    display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px; /* Adjust as needed */
+  }
+  
+  .select-items-button {
+    /* Reduce the size of the "Assign Task" button */
+    font-size: 12px;
+    padding: 5px 10px; /* Adjust as needed for button size */
+  }
+  .group-list button {
+    background-color: rgb(255, 163, 26); /* Set background color to black */
+    color: #000000; /* Set text color to yellow */
+    padding: 10px; /* Adjust the padding to reduce the button size */
+    margin-right: 10px; /* Adjust margin for spacing */
+    margin-top: 0px; /* Adjust margin for spacing */
+    border-radius: 8px;
+  }
+  
+  .member-name {
+    margin-right: 10px;
+  }
+  .common-textbox-container {
+    margin-top: 20px; /* Adjust as needed */
+  }
+  
+  .common-textbox {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .common-textbox:hover {
+    background-color: #f0f0f0;
+  }
+  
+  
+  .submit-button {
+    padding: 10px;
+    background-color: #25d366;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #128c7e;
+  }
+  
+  .task-form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .form-row {
+    margin-right: 10px;
+  }
+  
+  .form-row label {
+    margin-right: 5px;
+  }
+
+  .tick-button, .x-button {
+    background-color: #28a745; /* Green background color for tick button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5px; /* Adjust margin as needed */
+  }
+  
+  .x-button {
+    background-color: #dc3545; /* Red background color for X button */
+  }
+
+  /* Add these styles to your existing CSS file or create a new one */
+
+/* Styling for quantity, liter/kg, and count input fields */
+.quantity-input,
+.unit-input,
+.count-input {
+  display: flex;
+  align-items: center;
+}
+
+/* Styling for the + and - buttons */
+.quantity-btn,
+.unit-btn,
+.count-btn {
+  padding: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  background: none;
+  border: none;
+  outline: none;
+  transition: color 0.3s ease; /* Add transition for a smooth effect */
+}
+
+/* Add margin between the buttons and the input fields */
+.quantity-input > * + * {
+  margin-left: 5px;
+}
+
+.unit-input > * + * {
+  margin-left: 5px;
+}
+
+.count-input > * + * {
+  margin-left: 5px;
+}
+
+/* Hover effect */
+.quantity-btn:hover,
+.unit-btn:hover,
+.count-btn:hover {
+  color: #007bff; /* Change the color on hover to a different color or add your desired hover effect */
+}
+
+.tick-button,
+.x-button {
+  background-color: #28a745; /* Green background color for tick button */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 5px; /* Adjust margin as needed */
+  transition: background-color 0.3s; /* Add transition for a smooth effect */
+}
+
+.x-button {
+  background-color: #dc3545; /* Red background color for X button */
+}
+
+/* Hover effect for green tick and red X buttons */
+.tick-button:hover,
+.x-button:hover {
+  background-color: #218838; /* Change the background color on hover to a different shade or add your desired hover effect */
+}
+/* Style for the dropdown select element */
+.form-row select {
+  width: 150px; /* Adjust the width as needed */
+}
+
+/*My Task CSS*/
+.custom-modal-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.custom-close-modal-button {
+  background-color: #f44336; /* Red background */
+  color: white; /* White text */
+  padding: 8px 16px; /* Padding around text */
+  border: none; /* Remove border */
+  border-radius: 4px; /* Optional: Add rounded corners */
+  cursor: pointer; /* Add a pointer cursor on hover */
+}
+
+.custom-close-modal-button:hover {
+  background-color: #d32f2f; /* Darker red background on hover */
+}
+
+.custom-modal-content {
+  background-size: 150%; /* Adjust the background size as needed */
+  max-width: 80%; /* Set a maximum width for the content */
+  padding: 20px; /* Add padding to the content */
+  border-radius: 8px; /* Add border-radius for rounded corners */
+  background-color: #fff; /* Background color of the content */
+  position: relative;
+}
+
+/* Add a table border to the task information table */
+.custom-assigned-info table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd; /* Border color */
+}
+.custom-assigned-info table th:nth-child(8),
+.custom-assigned-info table td:nth-child(8) {
+  display: none;
+}
+
+.custom-assigned-info th,
+.custom-assigned-info td {
+  border: 1px solid #ddd; /* Border color */
+  padding: 8px; /* Cell padding */
+  text-align: left; /* Align text to the left */
+}
+
+.custom-assigned-info th {
+  background-color: #f2f2f2; /* Header background color */
+}
+
+.custom-assigned-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.custom-submit-button {
+  background-color: #4caf50; /* Green background */
+  color: white; /* White text */
+  padding: 10px 20px; /* Padding around text */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Optional: Add rounded corners */
+  cursor: pointer; /* Add a pointer cursor on hover */
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.custom-submit-button:hover {
+  background-color: #45a049; /* Darker green background on hover */
+}
+
+.custom-submit-button:active {
+  background-color: #3e8e41; /* Even darker green background when button is clicked */
+}
+
+/*PagiNation */
+
+.item-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 10px; /* Reduce the margin between the table and other elements */
+}
+
+.item-table th,
+.item-table td {
+  border: 1px solid #ddd;
+  padding: 6px; /* Reduce the padding inside table cells */
+}
+
+
+
+.pagination button {
+  background-color: #4caf50;
+  color: white;
+  padding: 6px 12px; /* Reduce the padding for pagination buttons */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 2px;
+}
+
+.pagination button.active {
+  background-color: #45a049;
+}
+

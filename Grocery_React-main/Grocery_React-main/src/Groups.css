@@ -1,0 +1,13 @@
+.group-list {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0;
+  }
+  
+  .list-item-container {
+    margin-bottom: 10px; /* Adjust the margin between list items */
+  }
+  
+  .group-list-item {
+    display: block;
+    /* Add any additional styles you need for each list item */
+  }

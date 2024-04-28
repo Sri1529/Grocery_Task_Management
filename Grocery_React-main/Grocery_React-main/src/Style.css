@@ -1,0 +1,135 @@
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* This ensures that the container takes the full height of the viewport */
+   
+  }
+  #logo {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .book{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    /* background-image:url('../pic/HD-wallpaper-maroon-colors-solid-thumbnail.jpg') ; */
+    background-size: cover;
+    background-position: center;
+  }
+.tabular{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255,163,26);
+  }
+  .tabular ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+  .tabular li {
+    margin-right: 20px;
+    padding: 10px;
+    padding-top: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+  }
+  .tabular a{
+    color: inherit;
+    text-decoration: none;
+  }
+  .tabular li:hover
+  {
+    background-color: #e0e0e0;
+  } 
+  /* Add these styles to your CSS or styling framework */
+
+/* Add these styles to your CSS or styling framework */
+
+/* Add these styles to your CSS or styling framework */
+
+/* Add these styles to your CSS or styling framework */
+
+.My_Groups {
+  /* Your existing styles for My_Groups container */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.group-list-container {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+
+
+
+/* Style.css */
+.group-button {
+  /* Your existing styles for the button */
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  margin: 5px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease; /* Add transition for smooth effect */
+}
+
+.group-button:hover {
+  background-color: #808080; /* Change color on hover */
+}
+
+
+
+/* Group Modal */
+/* Add these styles to your CSS or styling framework */
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* Style for closing the modal */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Add these styles for open modal */
+.modal.open {
+  display: block;
+}
+
